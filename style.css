@@ -97,15 +97,9 @@ footer{
 }
 
 
-
-
-
-
-
-
-/*----------------------------------
-    Making Responsive with media query 
-    ----------------------------------*/
+                    /*----------------------------------
+                        Making Responsive with media query 
+                        ----------------------------------*/
 
     @media only screen and (max-width:688px) {
         .first-shows{
@@ -131,9 +125,6 @@ footer{
             margin-left:20px;
             margin-top: 5px;
         }
-                    /*-----------------
-                        Player Section 
-                    -------------------- */
         .players{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -158,4 +149,50 @@ footer{
         }
         
     }
-
+    @media  only screen and (min-width:689px) and (max-width:992px){
+        .first-shows{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner{
+            width: 100%;
+        }
+        .first-show h1{
+            font-size: 36px;
+        }
+        .first-shows img{
+            width: 300px;
+            height: 245px;
+        }
+        #banner-heading{
+            margin-left:20px;
+            
+        }
+        #banner-image{
+            margin-right:0px;
+            margin-left:20px;
+            margin-top: 5px;
+        }
+        .players{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 27px;
+            width: 100%;
+            margin-left: 0px;
+            column-gap: 20px;
+        }
+        .player{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .footer img{
+            width: 200px;
+        }
+        .footer a{
+            font-size: 20px;
+            color: #C14E60;
+        }
+    }
