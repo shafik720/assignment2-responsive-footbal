@@ -9,11 +9,10 @@ body{
 /*------------------
     Banner side css 
 -------------------- */
-.main-container{
-    width: 1440px;
-}
+
 .banner{
     background-color: #2D25A0;
+    width: 1440px;
 }
 .first-shows{
     display: flex;
@@ -63,12 +62,26 @@ body{
     Making Responsive with media query 
     ----------------------------------*/
 
-    /* @media only screen and (max-width:688px) {
+    @media only screen and (max-width:688px) {
         .first-shows{
             display: flex;
             flex-direction: column;
+            
         }
-        .main-container{
+        .banner{
             width: 100%;
         }
-    } */
+        .first-shows img{
+            width: 329px;
+            height: 260px;
+        }
+        #banner-heading{
+            margin-left:20px;
+            
+        }
+        #banner-image{
+            margin-right:0px;
+            margin-left:20px;
+            margin-top: 5px;
+        }
+    }
