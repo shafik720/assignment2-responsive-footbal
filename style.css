@@ -9,7 +9,9 @@ body{
 /*------------------
     Banner side css 
 -------------------- */
-
+.container{
+    margin-bottom: 70px;
+}
 .banner{
     background-color: #2D25A0;
     width: 1440px;
@@ -46,6 +48,31 @@ body{
 #banner-image{
     margin-right: 140px;
 }
+/*-----------------
+    Player Section 
+-------------------- */
+.player img{
+    width: 330px;
+    height: 256;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    width: 700px;
+    margin-left: 100px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 10px 10px 20px grey;
+}
+.player h2{
+    font-size: 28px;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px ;
+}
 
 
 
@@ -71,6 +98,9 @@ body{
         .banner{
             width: 100%;
         }
+        .first-show h1{
+            font-size: 36px;
+        }
         .first-shows img{
             width: 329px;
             height: 260px;
@@ -85,3 +115,4 @@ body{
             margin-top: 5px;
         }
     }
+
