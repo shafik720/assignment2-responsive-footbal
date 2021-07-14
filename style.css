@@ -21,15 +21,16 @@ body{
     display: flex;
     justify-content: space-around;
 }
+/*------- Transition in banner by hovering certain area Start ------ */
 .first-shows img{
     width: 556px;
     height: 438px;
     transition: transform 1s ease-in-out ;
 }
-/*------- Transition in banner by hovering certain area ------ */
 .banner:hover img {
     transform: skewY(360deg);
 }
+/*------- Transition in banner by hovering certain area End ------ */
 
 .first-show{
     margin-top: 130px;
@@ -95,7 +96,6 @@ footer{
     font-size: 30px;
     padding: 10px;
 }
-
 
                     /*----------------------------------
                         Making Responsive with media query 
