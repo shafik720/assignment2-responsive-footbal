@@ -1,14 +1,15 @@
-/* Font awesome link  */
+                /* Font awesome link  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-/* Regular common styles */
+                /* Regular common styles */
 body{
     font-family: 'Poppins', sans-serif;
 }
 
-/*------------------
-    Banner side css 
--------------------- */
+                    /*------------------
+                        Banner side css 
+                    -------------------- */
 .container{
     margin-bottom: 70px;
 }
@@ -48,17 +49,18 @@ body{
 #banner-image{
     margin-right: 140px;
 }
-/*-----------------
-    Player Section 
--------------------- */
+                    /*-----------------
+                        Player Section 
+                    -------------------- */
 .player img{
     width: 330px;
-    height: 256;
+    height: 256px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+    row-gap: 27px;
     width: 700px;
     margin-left: 100px;
 }
@@ -93,7 +95,6 @@ body{
         .first-shows{
             display: flex;
             flex-direction: column;
-            
         }
         .banner{
             width: 100%;
@@ -114,5 +115,24 @@ body{
             margin-left:20px;
             margin-top: 5px;
         }
+                    /*-----------------
+                        Player Section 
+                    -------------------- */
+        .players{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 27px;
+            width: 100%;
+            margin-left: 0px;
+            column-gap: 0px;
+        }
+        .player{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
     }
 
