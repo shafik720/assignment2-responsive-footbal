@@ -25,6 +25,13 @@ body{
     width: 556px;
     height: 438px;
 }
+.first-shows img{
+    transition: transform 1s ease-in-out ;
+    
+}
+.banner:hover img {
+    transform: skewY(360deg);
+}
 .first-show{
     margin-top: 130px;
     margin-bottom: 70px;
