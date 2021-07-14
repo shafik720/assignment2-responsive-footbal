@@ -14,7 +14,7 @@ body{
     margin-bottom: 70px;
 }
 .banner{
-    background-color: #2D25A0;
+    background-color: #153362;
     width: 1440px;
 }
 .first-shows{
@@ -24,14 +24,13 @@ body{
 .first-shows img{
     width: 556px;
     height: 438px;
-}
-.first-shows img{
     transition: transform 1s ease-in-out ;
-    
 }
+/*------- Transition in banner by hovering certain area ------ */
 .banner:hover img {
     transform: skewY(360deg);
 }
+
 .first-show{
     margin-top: 130px;
     margin-bottom: 70px;
@@ -82,10 +81,20 @@ body{
     color: #6C6C6C;
     font-size: 16px ;
 }
-
-
-
-
+                    /*-----------------
+                        footer Section 
+                    -------------------- */
+footer{
+    text-align: center;
+}
+.footer img{
+    width: 400px;
+}
+.footer a{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
 
 
 
