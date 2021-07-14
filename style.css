@@ -91,7 +91,7 @@ footer{
     width: 400px;
 }
 .footer a{
-    color: black;
+    color: lightslategray;
     font-size: 30px;
     padding: 10px;
 }
@@ -148,6 +148,13 @@ footer{
             align-items: center;
             border-radius: 10px;
             padding: 10px;
+        }
+        .footer img{
+            width: 200px;
+        }
+        .footer a{
+            font-size: 20px;
+            color: #C14E60;
         }
         
     }
