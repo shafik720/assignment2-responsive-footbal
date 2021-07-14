@@ -82,6 +82,25 @@ body{
     color: #6C6C6C;
     font-size: 16px ;
 }
+                        /* ----------------
+                            Bonus section
+                        ----------------- */
+.bonus{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+    width: 80%;
+    margin-left: 150px ;
+    border-radius: 10px;
+}
+.bonus a{
+    font-size: 50px;
+}
+.bonus h1{
+    font-size: 1.95em;
+}
+
                     /*-----------------
                         footer Section 
                     -------------------- */
@@ -98,7 +117,7 @@ footer{
 }
 
                     /*----------------------------------
-                        Making Responsive with media query 
+                        Mobile Responsive with media query 
                         ----------------------------------*/
 
     @media only screen and (max-width:688px) {
@@ -147,8 +166,21 @@ footer{
             font-size: 20px;
             color: #C14E60;
         }
+        .bonus{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+            align-items: center;
+            text-align: center;
+            box-shadow: 10px 10px 10px grey;
+            width: 80%;
+            border-radius: 10px;
+        }
         
     }
+                    /*----------------------------------
+                        Tablet Responsive with media query 
+                        ----------------------------------*/
     @media  only screen and (min-width:689px) and (max-width:992px){
         .first-shows{
             display: flex;
@@ -194,5 +226,17 @@ footer{
         .footer a{
             font-size: 20px;
             color: #C14E60;
+        }
+        .bonus{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            box-shadow: 10px 10px 10px grey;
+            width: 80%;
+            margin-left: 10% ;
+            border-radius: 10px;
+        }
+        .find-us{
+            width: 30%;
         }
     }
