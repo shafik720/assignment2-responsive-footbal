@@ -66,7 +66,7 @@ body{
 }
 .player{
     padding: 15px;
-    box-shadow: 10px 10px 20px grey;
+    box-shadow: 10px 10px 10px grey;
 }
 .player h2{
     font-size: 28px;
